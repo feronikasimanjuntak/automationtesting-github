@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.0 on win32)" generated="20220427 23:36:19.807" rpa="false">
+<suite id="s1" name="RobotTestGithub" source="C:\Users\asus\eclipse-workspace\RobotTestGithub">
+<suite id="s1-s1" name="TestSuite 02" source="C:\Users\asus\eclipse-workspace\RobotTestGithub\TestSuite_02">
+<suite id="s1-s1-s1" name="AddEmailTest" source="C:\Users\asus\eclipse-workspace\RobotTestGithub\TestSuite_02\AddEmailTest.robot">
+<test id="s1-s1-s1-t1" name="AddEmailTest">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://github.com/login</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20220427 23:36:20.033" level="INFO">Opening browser 'chrome' to base url 'https://github.com/login'.</msg>
+<status status="PASS" starttime="20220427 23:36:20.031" endtime="20220427 23:36:22.469"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<status status="PASS" starttime="20220427 23:36:22.470" endtime="20220427 23:36:22.471"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20220427 23:36:24.475" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220427 23:36:22.472" endtime="20220427 23:36:24.475"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>login_field</arg>
+<arg>feronikasimanjuntak</arg>
+</arguments>
+<msg timestamp="20220427 23:36:24.477" level="INFO">Typing text 'feronikasimanjuntak' into text field 'login_field'.</msg>
+<status status="PASS" starttime="20220427 23:36:24.476" endtime="20220427 23:36:24.551"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>password</arg>
+<arg>feronika1410annas</arg>
+</arguments>
+<msg timestamp="20220427 23:36:24.551" level="INFO">Typing password into text field 'password'.</msg>
+<msg timestamp="20220427 23:36:24.579" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20220427 23:36:24.616" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20220427 23:36:24.551" endtime="20220427 23:36:24.616"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>commit</arg>
+</arguments>
+<msg timestamp="20220427 23:36:24.617" level="INFO">Clicking element 'commit'.</msg>
+<status status="PASS" starttime="20220427 23:36:24.617" endtime="20220427 23:36:26.626"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath:/html/body/div[1]/header/div[7]/details/summary</arg>
+</arguments>
+<msg timestamp="20220427 23:36:26.628" level="INFO">Clicking element 'xpath:/html/body/div[1]/header/div[7]/details/summary'.</msg>
+<status status="PASS" starttime="20220427 23:36:26.627" endtime="20220427 23:36:26.676"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath:/html/body/div[1]/header/div[7]/details/details-menu/a[9]</arg>
+</arguments>
+<msg timestamp="20220427 23:36:26.676" level="INFO">Clicking element 'xpath:/html/body/div[1]/header/div[7]/details/details-menu/a[9]'.</msg>
+<status status="PASS" starttime="20220427 23:36:26.676" endtime="20220427 23:36:27.940"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id=\"js-pjax-container\"]/div/div[2]/div[1]/div/action-list/nav/ul/li[8]/ul/li[2]/a</arg>
+</arguments>
+<msg timestamp="20220427 23:36:27.941" level="INFO">Clicking element '//*[@id="js-pjax-container"]/div/div[2]/div[1]/div/action-list/nav/ul/li[8]/ul/li[2]/a'.</msg>
+<status status="PASS" starttime="20220427 23:36:27.940" endtime="20220427 23:36:28.744"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>email</arg>
+<arg>xxx@gmail.com</arg>
+</arguments>
+<msg timestamp="20220427 23:36:28.746" level="INFO">Typing text 'xxx@gmail.com' into text field 'email'.</msg>
+<status status="PASS" starttime="20220427 23:36:28.745" endtime="20220427 23:36:28.812"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id=\"new_user_email\"]/dl/dd/button</arg>
+</arguments>
+<msg timestamp="20220427 23:36:28.813" level="INFO">Clicking element '//*[@id="new_user_email"]/dl/dd/button'.</msg>
+<status status="PASS" starttime="20220427 23:36:28.813" endtime="20220427 23:36:29.909"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>30</arg>
+</arguments>
+<msg timestamp="20220427 23:36:59.923" level="INFO">Slept 30 seconds</msg>
+<status status="PASS" starttime="20220427 23:36:29.910" endtime="20220427 23:36:59.924"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220427 23:36:59.925" endtime="20220427 23:37:01.993"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Berhasil Menambah Email</arg>
+</arguments>
+<msg timestamp="20220427 23:37:01.997" level="INFO">Berhasil Menambah Email</msg>
+<status status="PASS" starttime="20220427 23:37:01.994" endtime="20220427 23:37:01.998"></status>
+</kw>
+<status status="PASS" starttime="20220427 23:36:20.031" endtime="20220427 23:37:01.999" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20220427 23:36:19.860" endtime="20220427 23:37:02.002"></status>
+</suite>
+<status status="PASS" starttime="20220427 23:36:19.857" endtime="20220427 23:37:02.004"></status>
+</suite>
+<status status="PASS" starttime="20220427 23:36:19.837" endtime="20220427 23:37:02.007"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="RobotTestGithub">RobotTestGithub</stat>
+<stat pass="1" fail="0" id="s1-s1" name="TestSuite 02">RobotTestGithub.TestSuite 02</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="AddEmailTest">RobotTestGithub.TestSuite 02.AddEmailTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
